@@ -6,18 +6,6 @@ BrainWeb is a privacy-first Chrome extension that tracks your browsing activity 
 
 Instead of endlessly scrolling without knowing where your time goes, BrainWeb helps you understand your social media consumption, the type of content you view, and how much time you spend on these platforms.
 
-<p align="center">
-  <img src="docs/screenshots/dashboard.png" alt="BrainWeb Analytics Dashboard" width="100%">
-  <br>
-  <em>BrainWeb Analytics Dashboard</em>
-</p>
-
-<p align="center">
-  <img src="docs/screenshots/extension-popup.png" alt="BrainWeb Chrome Extension" width="360">
-  <br>
-  <em>BrainWeb Chrome Extension Popup</em>
-</p>
-
 ---
 
 ## Features
@@ -50,19 +38,6 @@ Instead of endlessly scrolling without knowing where your time goes, BrainWeb he
 - Your browser profiles maintain separate tracking data.
 
 ---
-
-## Screenshots
-
-### Dashboard
-
-![BrainWeb Dashboard](docs/screenshots/dashboard.png)
-
-### Chrome Extension
-
-![BrainWeb Extension Popup](docs/screenshots/extension-popup.png)
-
----
-
 ## Supported Platforms
 
 | Platform | Support |
