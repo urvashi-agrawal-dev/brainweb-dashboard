@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState, type ReactNode } from "react";
 
 const NAV_ITEMS = ["Overview", "Activity", "Content Analytics", "Platforms", "Insights", "Settings"] as const;
@@ -556,7 +557,13 @@ export default function Dashboard() {
             />
           </>
         )}
-        <footer className="page-footer">BrainWeb <span>·</span> Private by design. Built for intentional browsing.</footer>
+        <footer className="page-footer">
+          <span>© 2026 BrainWeb</span>
+          <span aria-hidden="true">·</span>
+          <Link href="/privacy">Privacy Policy</Link>
+          <span aria-hidden="true">·</span>
+          <span>Private by design. Built for intentional browsing.</span>
+        </footer>
       </section>
     </main>
   );
